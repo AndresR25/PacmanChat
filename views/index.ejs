@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type ="text/javascript" src="/socket.io/socket.io.js"></script>
+    <title>Multiplayer Pacman</title>
+</head>
+<body>
+    <img src="./../static/img/Pacman.jpg">
+    <container class="mainContainer">
+        <div class="users">
+            Active Users in Game Screen
+        </div>
+        <div class="chatbox">
+            <div class="messages">
+            </div>
+            <form class="formMessages">
+                <h4>Message</h4>
+                <input id="message" placeholder="Your message here" />
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </container>
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+
+<script src="/js/index.js"></script>
+</body>
+</html>
